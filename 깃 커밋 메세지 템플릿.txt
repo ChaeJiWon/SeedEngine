@@ -1,0 +1,49 @@
+# 제목(Title): 작업의 간략한 요약 (50자 이내)
+# 예: Fix: Player movement bug resolved on collision  
+
+# 본문(Description): 변경 사항에 대한 자세한 설명 (필요 시 작성)
+# - 어떤 변경을 했는지?
+# - 왜 이 변경이 필요한지?
+# - 변경으로 기대되는 효과는?
+
+# 예:
+# - Fixed an issue where the player would get stuck when colliding with walls.
+# - Improved collision detection for smoother movement.
+# - This fix ensures better gameplay experience.
+
+# 참조(References): 관련 이슈, 링크 또는 참고 사항
+# 예: Resolved issue #42, Ref: https://example.com/issue/42
+
+# To-Do: 추가 작업이 필요한 경우 명시 (선택 사항)
+# 예: 
+# - Optimize collision logic further.
+# - Write tests for edge cases.
+
+
+==================================================================
+기능추가
+Feat: Add basic rendering system for 2D sprites  
+
+- Implemented SpriteRenderer component for displaying 2D sprites.
+- Added basic shader support for transparency.
+- This is the foundation for future sprite rendering features.  
+
+버그수정
+Fix: Resolve crash when loading empty scene  
+
+- Fixed a null reference exception when loading a scene with no objects.  
+- Added a validation check to prevent the issue. 
+
+리펙터링
+Refactor: Simplify player movement logic  
+
+- Moved redundant calculations to a helper method.
+- Improved code readability by removing unnecessary comments.
+
+문서 업데이트
+Docs: Update README with setup instructions  
+
+- Added installation steps and environment setup details.
+- Included examples for running test cases.
+
+
